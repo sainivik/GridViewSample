@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setAdapter();
     }
 
+
     private void setListData() {
         dataList.add(new MyModel(1, "Abcd"));
         dataList.add(new MyModel(2, ""));
