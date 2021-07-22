@@ -6,4 +6,5 @@ public interface RecyclerViewClickListener {
 
     void onclick(View view, int pos);
 
+
 }

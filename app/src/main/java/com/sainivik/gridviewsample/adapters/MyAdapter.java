@@ -65,7 +65,6 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public int getItemViewType(int position) {
-
         if (dataList.get(position).getType() == 1) {
             viewType = 1;
         } else {

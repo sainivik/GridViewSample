@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setAdapter() {
 
+
         RecyclerViewClickListener myListener = new RecyclerViewClickListener() {
             @Override
             public void onclick(View view, int pos) {
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new MyAdapter(dataList, this, myListener);
 
         GridLayoutManager mLayoutManager = new GridLayoutManager(this, 2, RecyclerView.VERTICAL, false);
+
         mLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
             @Override
             public int getSpanSize(int position) {
